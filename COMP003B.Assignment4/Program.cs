@@ -19,6 +19,7 @@ namespace COMP003B.Assignment4
                 app.UseHsts();
             }
 
+            app.UseStatusCodePages();
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 

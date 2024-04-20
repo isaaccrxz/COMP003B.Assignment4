@@ -2,15 +2,14 @@
 
 namespace COMP003B.Assignment4.Controllers
 {
-    public class RegisterController : Controller
+    public class RegisterViewModelController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Register()
         {
             return View();
         }
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult RegisterViewModel()
+
+        public IActionResult ThankYou()
         {
             return View();
         }
