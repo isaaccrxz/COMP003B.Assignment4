@@ -10,7 +10,7 @@ namespace COMP003B.Assignment4.Controllers
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Register()
+        public IActionResult RegisterViewModel()
         {
             return View();
         }
